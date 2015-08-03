@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Rails Skeleton</title>
+    <title><%= page_title app_name: 'Rails Skeleton' %></title>
     <%= stylesheet_link_tag :application, media: :all %>
     <%= javascript_include_tag :application %>
     <%= csrf_meta_tags %>
   </head>
-  <body>
+  <body class="<%= body_class %>">
     <%= yield %>
   </body>
 </html>
