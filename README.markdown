@@ -3,7 +3,7 @@ Rails Skeleton
 
 A cleaner Rails skeleton for bootstraping new projects.
 
-## Gems
+### Gems
 
 - `rspec` for testing.
 - `pry` for debugging.
@@ -13,17 +13,19 @@ A cleaner Rails skeleton for bootstraping new projects.
 - `bourbon` for SASS library.
 - `sprockets-es6` for next JavaScript generation.
 
-## Options
+### Options
 
 - `time_zone` option is set to `Brasilia`.
 - `default_locale` option is set to `pt-BR`.
 - Disabled some generators (see application.rb)
 
-## Middleware
+### Middleware
 
 `Rack::Lock`, `Rack::ETag` and `ActionDispatch::ParamsParser` have been deleted.
 
-## Structure
+### and more..
 
+- normalize.scss
+- stripped comments.
 - `app/models/concerns` and `app/controllers/concerns` directories removed.
 - `db/seeds.rb` removed.
