@@ -22,7 +22,7 @@ end
 group :test do
   gem 'database_rewinder'
   gem 'fabrication', require: false
-  gem 'shoulda-matchers', require: false
+  gem 'shoulda-matchers'
   gem 'timecop'
 end
 
